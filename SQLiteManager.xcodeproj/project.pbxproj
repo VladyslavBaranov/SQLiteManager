@@ -7,16 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E01E61E27A7C3F200800450 /* PasscodeLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E61D27A7C3F200800450 /* PasscodeLockView.swift */; };
+		1E01E62B27A7D69800800450 /* ScriptEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E62727A7D69700800450 /* ScriptEntity+CoreDataClass.swift */; };
+		1E01E62C27A7D69800800450 /* ScriptEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E62827A7D69700800450 /* ScriptEntity+CoreDataProperties.swift */; };
+		1E01E63127A7D95100800450 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E63027A7D95100800450 /* CoreDataManager.swift */; };
+		1E01E63327A7E09E00800450 /* HomeViewLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E63227A7E09E00800450 /* HomeViewLayoutManager.swift */; };
+		1E01E63527A7E16B00800450 /* DatabaseContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E63427A7E16B00800450 /* DatabaseContainer.swift */; };
+		1E01E63927A8110A00800450 /* DatabaseInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E63827A8110A00800450 /* DatabaseInfoViewController.swift */; };
+		1E01E63B27A8261000800450 /* DatabaseInfoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E63A27A8261000800450 /* DatabaseInfoHeaderView.swift */; };
+		1E01E63D27A86E4E00800450 /* DatabaseInfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E63C27A86E4E00800450 /* DatabaseInfoCollectionViewCell.swift */; };
+		1E01E64227AE7DE300800450 /* SQLiteKeywords.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1E01E64027AE7DE300800450 /* SQLiteKeywords.txt */; };
+		1E01E64327AE7DE300800450 /* SQLiteDataTypes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1E01E64127AE7DE300800450 /* SQLiteDataTypes.txt */; };
+		1E01E64627AE7E0900800450 /* SymbolContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E64527AE7E0900800450 /* SymbolContainer.swift */; };
+		1E01E64827AE981D00800450 /* ScriptEditorViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E64727AE981D00800450 /* ScriptEditorViewCell.swift */; };
+		1E01E64D27AECD9600800450 /* SQLiteMathFunctions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E01E64A27AECD9500800450 /* SQLiteMathFunctions.json */; };
+		1E01E64E27AECD9600800450 /* SQLiteAggregateFunctions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E01E64B27AECD9600800450 /* SQLiteAggregateFunctions.json */; };
+		1E01E64F27AECD9600800450 /* SQLiteStringFunctions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E01E64C27AECD9600800450 /* SQLiteStringFunctions.json */; };
+		1E01E65127AED43000800450 /* SQLiteSampleCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E01E65027AED43000800450 /* SQLiteSampleCodes.json */; };
+		1E01E65327AEDC9900800450 /* ScriptResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E65227AEDC9900800450 /* ScriptResultViewController.swift */; };
+		1E01E65B27B2D3C800800450 /* SyntaxTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E65A27B2D3C800800450 /* SyntaxTextStorage.swift */; };
+		1E01E65F27B2DBE000800450 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E65E27B2DBE000800450 /* UIColor+Extension.swift */; };
+		1E01E66127B2DDF200800450 /* TokenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E66027B2DDF200800450 /* TokenFactory.swift */; };
+		1E01E66327B2E84E00800450 /* SQLiteOperators.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1E01E66227B2E84E00800450 /* SQLiteOperators.txt */; };
+		1E01E66527B2ECCB00800450 /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E66427B2ECCB00800450 /* Tokenizer.swift */; };
+		1E01E66727B2FC1200800450 /* SQLiteFunctions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1E01E66627B2FC1200800450 /* SQLiteFunctions.txt */; };
+		1E01E66927B440EB00800450 /* IconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E66827B440EB00800450 /* IconViewController.swift */; };
+		1E01E66B27B4ED2C00800450 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E66A27B4ED2C00800450 /* Table.swift */; };
+		1E01E66D27B4FA3700800450 /* TableInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E66C27B4FA3700800450 /* TableInfoView.swift */; };
+		1E01E67227B59B1F00800450 /* JSONTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E67127B59B1F00800450 /* JSONTable.swift */; };
+		1E01E67427B59C4100800450 /* YAMLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01E67327B59C4100800450 /* YAMLTable.swift */; };
 		1E2EA48127A5AF4A00685EA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA48027A5AF4A00685EA0 /* AppDelegate.swift */; };
 		1E2EA48327A5AF4A00685EA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA48227A5AF4A00685EA0 /* SceneDelegate.swift */; };
-		1E2EA48527A5AF4A00685EA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA48427A5AF4A00685EA0 /* ViewController.swift */; };
-		1E2EA48827A5AF4A00685EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2EA48627A5AF4A00685EA0 /* Main.storyboard */; };
+		1E2EA48527A5AF4A00685EA0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA48427A5AF4A00685EA0 /* HomeViewController.swift */; };
 		1E2EA48B27A5AF4A00685EA0 /* SQLiteManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA48927A5AF4A00685EA0 /* SQLiteManager.xcdatamodeld */; };
 		1E2EA48D27A5AF4F00685EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2EA48C27A5AF4F00685EA0 /* Assets.xcassets */; };
 		1E2EA49027A5AF4F00685EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2EA48E27A5AF4F00685EA0 /* LaunchScreen.storyboard */; };
 		1E2EA49B27A5AF4F00685EA0 /* SQLiteManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA49A27A5AF4F00685EA0 /* SQLiteManagerTests.swift */; };
 		1E2EA4A527A5AF4F00685EA0 /* SQLiteManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA4A427A5AF4F00685EA0 /* SQLiteManagerUITests.swift */; };
 		1E2EA4A727A5AF4F00685EA0 /* SQLiteManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA4A627A5AF4F00685EA0 /* SQLiteManagerUITestsLaunchTests.swift */; };
+		1E2EA4B427A5BF2800685EA0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA4B327A5BF2800685EA0 /* CollectionViewCell.swift */; };
+		1E2EA4B627A5E5F500685EA0 /* DatabaseCRUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA4B527A5E5F500685EA0 /* DatabaseCRUDViewController.swift */; };
+		1E2EA4BE27A6748D00685EA0 /* TextFieldTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA4BD27A6748D00685EA0 /* TextFieldTableCell.swift */; };
+		1E2EA4C027A6794D00685EA0 /* SwitchTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA4BF27A6794D00685EA0 /* SwitchTableCell.swift */; };
+		1E2EA4C327A6D39A00685EA0 /* DatabaseFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA4C227A6D39A00685EA0 /* DatabaseFileManager.swift */; };
+		1E2EA4C527A6D3DD00685EA0 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA4C427A6D3DD00685EA0 /* Database.swift */; };
+		1E2EA4C727A6D41000685EA0 /* DatabaseFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA4C627A6D41000685EA0 /* DatabaseFile.swift */; };
+		1E2EA4C927A6D43B00685EA0 /* SQLiteResultTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA4C827A6D43B00685EA0 /* SQLiteResultTable.swift */; };
+		1E2EA4CB27A6DD7600685EA0 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA4CA27A6DD7600685EA0 /* UserDefaultsKeys.swift */; };
+		1E2EA4CE27A6FEE000685EA0 /* PasscodeLockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA4CD27A6FEE000685EA0 /* PasscodeLockViewController.swift */; };
+		1E2EA4D127A707A600685EA0 /* RandomColorGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA4D027A707A600685EA0 /* RandomColorGenerator.swift */; };
+		1E2EA4D427A7167100685EA0 /* ScriptEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA4D327A7167100685EA0 /* ScriptEditorViewController.swift */; };
+		1E2EA4D627A71AD900685EA0 /* ScriptPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EA4D527A71AD900685EA0 /* ScriptPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +78,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E01E61D27A7C3F200800450 /* PasscodeLockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeLockView.swift; sourceTree = "<group>"; };
+		1E01E62727A7D69700800450 /* ScriptEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScriptEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1E01E62827A7D69700800450 /* ScriptEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScriptEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1E01E63027A7D95100800450 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		1E01E63227A7E09E00800450 /* HomeViewLayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewLayoutManager.swift; sourceTree = "<group>"; };
+		1E01E63427A7E16B00800450 /* DatabaseContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseContainer.swift; sourceTree = "<group>"; };
+		1E01E63827A8110A00800450 /* DatabaseInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseInfoViewController.swift; sourceTree = "<group>"; };
+		1E01E63A27A8261000800450 /* DatabaseInfoHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseInfoHeaderView.swift; sourceTree = "<group>"; };
+		1E01E63C27A86E4E00800450 /* DatabaseInfoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseInfoCollectionViewCell.swift; sourceTree = "<group>"; };
+		1E01E64027AE7DE300800450 /* SQLiteKeywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SQLiteKeywords.txt; sourceTree = "<group>"; };
+		1E01E64127AE7DE300800450 /* SQLiteDataTypes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SQLiteDataTypes.txt; sourceTree = "<group>"; };
+		1E01E64527AE7E0900800450 /* SymbolContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolContainer.swift; sourceTree = "<group>"; };
+		1E01E64727AE981D00800450 /* ScriptEditorViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptEditorViewCell.swift; sourceTree = "<group>"; };
+		1E01E64A27AECD9500800450 /* SQLiteMathFunctions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SQLiteMathFunctions.json; sourceTree = "<group>"; };
+		1E01E64B27AECD9600800450 /* SQLiteAggregateFunctions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SQLiteAggregateFunctions.json; sourceTree = "<group>"; };
+		1E01E64C27AECD9600800450 /* SQLiteStringFunctions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SQLiteStringFunctions.json; sourceTree = "<group>"; };
+		1E01E65027AED43000800450 /* SQLiteSampleCodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SQLiteSampleCodes.json; sourceTree = "<group>"; };
+		1E01E65227AEDC9900800450 /* ScriptResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptResultViewController.swift; sourceTree = "<group>"; };
+		1E01E65A27B2D3C800800450 /* SyntaxTextStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyntaxTextStorage.swift; sourceTree = "<group>"; };
+		1E01E65E27B2DBE000800450 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		1E01E66027B2DDF200800450 /* TokenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenFactory.swift; sourceTree = "<group>"; };
+		1E01E66227B2E84E00800450 /* SQLiteOperators.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SQLiteOperators.txt; sourceTree = "<group>"; };
+		1E01E66427B2ECCB00800450 /* Tokenizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
+		1E01E66627B2FC1200800450 /* SQLiteFunctions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SQLiteFunctions.txt; sourceTree = "<group>"; };
+		1E01E66827B440EB00800450 /* IconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconViewController.swift; sourceTree = "<group>"; };
+		1E01E66A27B4ED2C00800450 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		1E01E66C27B4FA3700800450 /* TableInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableInfoView.swift; sourceTree = "<group>"; };
+		1E01E67127B59B1F00800450 /* JSONTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTable.swift; sourceTree = "<group>"; };
+		1E01E67327B59C4100800450 /* YAMLTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAMLTable.swift; sourceTree = "<group>"; };
 		1E2EA47D27A5AF4A00685EA0 /* SQLiteManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2EA48027A5AF4A00685EA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E2EA48227A5AF4A00685EA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E2EA48427A5AF4A00685EA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1E2EA48727A5AF4A00685EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E2EA48427A5AF4A00685EA0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1E2EA48A27A5AF4A00685EA0 /* SQLiteManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SQLiteManager.xcdatamodel; sourceTree = "<group>"; };
 		1E2EA48C27A5AF4F00685EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E2EA48F27A5AF4F00685EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +120,19 @@
 		1E2EA4A027A5AF4F00685EA0 /* SQLiteManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLiteManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2EA4A427A5AF4F00685EA0 /* SQLiteManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteManagerUITests.swift; sourceTree = "<group>"; };
 		1E2EA4A627A5AF4F00685EA0 /* SQLiteManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E2EA4B327A5BF2800685EA0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		1E2EA4B527A5E5F500685EA0 /* DatabaseCRUDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseCRUDViewController.swift; sourceTree = "<group>"; };
+		1E2EA4BD27A6748D00685EA0 /* TextFieldTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableCell.swift; sourceTree = "<group>"; };
+		1E2EA4BF27A6794D00685EA0 /* SwitchTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableCell.swift; sourceTree = "<group>"; };
+		1E2EA4C227A6D39A00685EA0 /* DatabaseFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseFileManager.swift; sourceTree = "<group>"; };
+		1E2EA4C427A6D3DD00685EA0 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		1E2EA4C627A6D41000685EA0 /* DatabaseFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseFile.swift; sourceTree = "<group>"; };
+		1E2EA4C827A6D43B00685EA0 /* SQLiteResultTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteResultTable.swift; sourceTree = "<group>"; };
+		1E2EA4CA27A6DD7600685EA0 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
+		1E2EA4CD27A6FEE000685EA0 /* PasscodeLockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeLockViewController.swift; sourceTree = "<group>"; };
+		1E2EA4D027A707A600685EA0 /* RandomColorGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorGenerator.swift; sourceTree = "<group>"; };
+		1E2EA4D327A7167100685EA0 /* ScriptEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptEditorViewController.swift; sourceTree = "<group>"; };
+		1E2EA4D527A71AD900685EA0 /* ScriptPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +160,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E01E62F27A7D6A100800450 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1E01E62727A7D69700800450 /* ScriptEntity+CoreDataClass.swift */,
+				1E01E62827A7D69700800450 /* ScriptEntity+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		1E01E63627A810E700800450 /* DatabaseInfo */ = {
+			isa = PBXGroup;
+			children = (
+				1E01E63827A8110A00800450 /* DatabaseInfoViewController.swift */,
+				1E01E63A27A8261000800450 /* DatabaseInfoHeaderView.swift */,
+				1E01E63C27A86E4E00800450 /* DatabaseInfoCollectionViewCell.swift */,
+				1E01E66C27B4FA3700800450 /* TableInfoView.swift */,
+			);
+			path = DatabaseInfo;
+			sourceTree = "<group>";
+		};
+		1E01E63E27AE7D9D00800450 /* EditorFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1E01E64927AECD6600800450 /* JSON */,
+				1E01E63F27AE7DE300800450 /* Text */,
+			);
+			path = EditorFiles;
+			sourceTree = "<group>";
+		};
+		1E01E63F27AE7DE300800450 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				1E01E66627B2FC1200800450 /* SQLiteFunctions.txt */,
+				1E01E66227B2E84E00800450 /* SQLiteOperators.txt */,
+				1E01E64027AE7DE300800450 /* SQLiteKeywords.txt */,
+				1E01E64127AE7DE300800450 /* SQLiteDataTypes.txt */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		1E01E64427AE7DF400800450 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				1E01E65A27B2D3C800800450 /* SyntaxTextStorage.swift */,
+				1E01E64527AE7E0900800450 /* SymbolContainer.swift */,
+				1E01E66027B2DDF200800450 /* TokenFactory.swift */,
+				1E01E66427B2ECCB00800450 /* Tokenizer.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		1E01E64927AECD6600800450 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				1E01E65027AED43000800450 /* SQLiteSampleCodes.json */,
+				1E01E64B27AECD9600800450 /* SQLiteAggregateFunctions.json */,
+				1E01E64A27AECD9500800450 /* SQLiteMathFunctions.json */,
+				1E01E64C27AECD9600800450 /* SQLiteStringFunctions.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		1E01E67027B59B1500800450 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1E01E67127B59B1F00800450 /* JSONTable.swift */,
+				1E01E67327B59C4100800450 /* YAMLTable.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		1E2EA47427A5AF4A00685EA0 = {
 			isa = PBXGroup;
 			children = (
+				1E01E62F27A7D6A100800450 /* CoreData */,
 				1E2EA47F27A5AF4A00685EA0 /* SQLiteManager */,
 				1E2EA49927A5AF4F00685EA0 /* SQLiteManagerTests */,
 				1E2EA4A327A5AF4F00685EA0 /* SQLiteManagerUITests */,
@@ -101,13 +255,12 @@
 		1E2EA47F27A5AF4A00685EA0 /* SQLiteManager */ = {
 			isa = PBXGroup;
 			children = (
-				1E2EA48027A5AF4A00685EA0 /* AppDelegate.swift */,
-				1E2EA48227A5AF4A00685EA0 /* SceneDelegate.swift */,
-				1E2EA48427A5AF4A00685EA0 /* ViewController.swift */,
-				1E2EA48627A5AF4A00685EA0 /* Main.storyboard */,
-				1E2EA48C27A5AF4F00685EA0 /* Assets.xcassets */,
-				1E2EA48E27A5AF4F00685EA0 /* LaunchScreen.storyboard */,
-				1E2EA49127A5AF4F00685EA0 /* Info.plist */,
+				1E01E67027B59B1500800450 /* Utilities */,
+				1E01E63E27AE7D9D00800450 /* EditorFiles */,
+				1E2EA4C127A6D37E00685EA0 /* Shared */,
+				1E2EA4B927A66E2900685EA0 /* Modules */,
+				1E2EA4B827A66E0B00685EA0 /* Resources */,
+				1E2EA4B727A66E0000685EA0 /* Application */,
 				1E2EA48927A5AF4A00685EA0 /* SQLiteManager.xcdatamodeld */,
 			);
 			path = SQLiteManager;
@@ -128,6 +281,112 @@
 				1E2EA4A627A5AF4F00685EA0 /* SQLiteManagerUITestsLaunchTests.swift */,
 			);
 			path = SQLiteManagerUITests;
+			sourceTree = "<group>";
+		};
+		1E2EA4B727A66E0000685EA0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1E01E66827B440EB00800450 /* IconViewController.swift */,
+				1E2EA49127A5AF4F00685EA0 /* Info.plist */,
+				1E2EA48E27A5AF4F00685EA0 /* LaunchScreen.storyboard */,
+				1E2EA48027A5AF4A00685EA0 /* AppDelegate.swift */,
+				1E2EA48227A5AF4A00685EA0 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1E2EA4B827A66E0B00685EA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E2EA48C27A5AF4F00685EA0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1E2EA4B927A66E2900685EA0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1E01E63627A810E700800450 /* DatabaseInfo */,
+				1E2EA4D227A7165400685EA0 /* ScriptEditorViewController */,
+				1E2EA4CC27A6FEC000685EA0 /* PasscodeLock */,
+				1E2EA4BB27A66EFC00685EA0 /* DatabaseCRUD */,
+				1E2EA4BA27A66EE400685EA0 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1E2EA4BA27A66EE400685EA0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1E2EA4B327A5BF2800685EA0 /* CollectionViewCell.swift */,
+				1E2EA48427A5AF4A00685EA0 /* HomeViewController.swift */,
+				1E01E63227A7E09E00800450 /* HomeViewLayoutManager.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1E2EA4BB27A66EFC00685EA0 /* DatabaseCRUD */ = {
+			isa = PBXGroup;
+			children = (
+				1E2EA4BC27A6747300685EA0 /* Cells */,
+				1E2EA4B527A5E5F500685EA0 /* DatabaseCRUDViewController.swift */,
+			);
+			path = DatabaseCRUD;
+			sourceTree = "<group>";
+		};
+		1E2EA4BC27A6747300685EA0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1E2EA4BD27A6748D00685EA0 /* TextFieldTableCell.swift */,
+				1E2EA4BF27A6794D00685EA0 /* SwitchTableCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1E2EA4C127A6D37E00685EA0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1E01E64427AE7DF400800450 /* Editor */,
+				1E2EA4CF27A7078600685EA0 /* UI */,
+				1E01E66A27B4ED2C00800450 /* Table.swift */,
+				1E2EA4C427A6D3DD00685EA0 /* Database.swift */,
+				1E2EA4C227A6D39A00685EA0 /* DatabaseFileManager.swift */,
+				1E2EA4C627A6D41000685EA0 /* DatabaseFile.swift */,
+				1E2EA4C827A6D43B00685EA0 /* SQLiteResultTable.swift */,
+				1E2EA4CA27A6DD7600685EA0 /* UserDefaultsKeys.swift */,
+				1E01E63027A7D95100800450 /* CoreDataManager.swift */,
+				1E01E63427A7E16B00800450 /* DatabaseContainer.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1E2EA4CC27A6FEC000685EA0 /* PasscodeLock */ = {
+			isa = PBXGroup;
+			children = (
+				1E01E61D27A7C3F200800450 /* PasscodeLockView.swift */,
+				1E2EA4CD27A6FEE000685EA0 /* PasscodeLockViewController.swift */,
+			);
+			path = PasscodeLock;
+			sourceTree = "<group>";
+		};
+		1E2EA4CF27A7078600685EA0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1E2EA4D027A707A600685EA0 /* RandomColorGenerator.swift */,
+				1E01E65E27B2DBE000800450 /* UIColor+Extension.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1E2EA4D227A7165400685EA0 /* ScriptEditorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E2EA4D327A7167100685EA0 /* ScriptEditorViewController.swift */,
+				1E2EA4D527A71AD900685EA0 /* ScriptPageViewController.swift */,
+				1E01E64727AE981D00800450 /* ScriptEditorViewCell.swift */,
+				1E01E65227AEDC9900800450 /* ScriptResultViewController.swift */,
+			);
+			path = ScriptEditorViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +493,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E01E65127AED43000800450 /* SQLiteSampleCodes.json in Resources */,
+				1E01E64227AE7DE300800450 /* SQLiteKeywords.txt in Resources */,
 				1E2EA49027A5AF4F00685EA0 /* LaunchScreen.storyboard in Resources */,
+				1E01E64327AE7DE300800450 /* SQLiteDataTypes.txt in Resources */,
+				1E01E66727B2FC1200800450 /* SQLiteFunctions.txt in Resources */,
+				1E01E64F27AECD9600800450 /* SQLiteStringFunctions.json in Resources */,
+				1E01E64E27AECD9600800450 /* SQLiteAggregateFunctions.json in Resources */,
+				1E01E64D27AECD9600800450 /* SQLiteMathFunctions.json in Resources */,
+				1E01E66327B2E84E00800450 /* SQLiteOperators.txt in Resources */,
 				1E2EA48D27A5AF4F00685EA0 /* Assets.xcassets in Resources */,
-				1E2EA48827A5AF4A00685EA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +527,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E2EA48527A5AF4A00685EA0 /* ViewController.swift in Sources */,
+				1E2EA4B627A5E5F500685EA0 /* DatabaseCRUDViewController.swift in Sources */,
+				1E01E66D27B4FA3700800450 /* TableInfoView.swift in Sources */,
+				1E01E66B27B4ED2C00800450 /* Table.swift in Sources */,
+				1E01E63D27A86E4E00800450 /* DatabaseInfoCollectionViewCell.swift in Sources */,
+				1E2EA4B427A5BF2800685EA0 /* CollectionViewCell.swift in Sources */,
+				1E01E65B27B2D3C800800450 /* SyntaxTextStorage.swift in Sources */,
+				1E2EA4CB27A6DD7600685EA0 /* UserDefaultsKeys.swift in Sources */,
+				1E2EA4C027A6794D00685EA0 /* SwitchTableCell.swift in Sources */,
+				1E01E66127B2DDF200800450 /* TokenFactory.swift in Sources */,
+				1E01E66927B440EB00800450 /* IconViewController.swift in Sources */,
+				1E01E66527B2ECCB00800450 /* Tokenizer.swift in Sources */,
+				1E2EA4D127A707A600685EA0 /* RandomColorGenerator.swift in Sources */,
+				1E2EA4D627A71AD900685EA0 /* ScriptPageViewController.swift in Sources */,
+				1E01E65F27B2DBE000800450 /* UIColor+Extension.swift in Sources */,
+				1E01E63B27A8261000800450 /* DatabaseInfoHeaderView.swift in Sources */,
+				1E01E67427B59C4100800450 /* YAMLTable.swift in Sources */,
+				1E2EA4BE27A6748D00685EA0 /* TextFieldTableCell.swift in Sources */,
+				1E01E63127A7D95100800450 /* CoreDataManager.swift in Sources */,
+				1E2EA4C727A6D41000685EA0 /* DatabaseFile.swift in Sources */,
+				1E01E62B27A7D69800800450 /* ScriptEntity+CoreDataClass.swift in Sources */,
+				1E01E64827AE981D00800450 /* ScriptEditorViewCell.swift in Sources */,
+				1E2EA48527A5AF4A00685EA0 /* HomeViewController.swift in Sources */,
 				1E2EA48127A5AF4A00685EA0 /* AppDelegate.swift in Sources */,
+				1E01E63527A7E16B00800450 /* DatabaseContainer.swift in Sources */,
+				1E2EA4CE27A6FEE000685EA0 /* PasscodeLockViewController.swift in Sources */,
+				1E01E63927A8110A00800450 /* DatabaseInfoViewController.swift in Sources */,
+				1E2EA4C327A6D39A00685EA0 /* DatabaseFileManager.swift in Sources */,
 				1E2EA48327A5AF4A00685EA0 /* SceneDelegate.swift in Sources */,
+				1E01E67227B59B1F00800450 /* JSONTable.swift in Sources */,
+				1E2EA4D427A7167100685EA0 /* ScriptEditorViewController.swift in Sources */,
+				1E01E61E27A7C3F200800450 /* PasscodeLockView.swift in Sources */,
+				1E01E64627AE7E0900800450 /* SymbolContainer.swift in Sources */,
+				1E01E63327A7E09E00800450 /* HomeViewLayoutManager.swift in Sources */,
+				1E01E65327AEDC9900800450 /* ScriptResultViewController.swift in Sources */,
+				1E2EA4C527A6D3DD00685EA0 /* Database.swift in Sources */,
+				1E01E62C27A7D69800800450 /* ScriptEntity+CoreDataProperties.swift in Sources */,
 				1E2EA48B27A5AF4A00685EA0 /* SQLiteManager.xcdatamodeld in Sources */,
+				1E2EA4C927A6D43B00685EA0 /* SQLiteResultTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +601,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1E2EA48627A5AF4A00685EA0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E2EA48727A5AF4A00685EA0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1E2EA48E27A5AF4F00685EA0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,16 +733,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4D5NR7NN6K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SQLiteManager/Info.plist;
+				INFOPLIST_FILE = SQLiteManager/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +751,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "VladyslavB-UK.SQLiteManager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,16 +763,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4D5NR7NN6K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SQLiteManager/Info.plist;
+				INFOPLIST_FILE = SQLiteManager/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,6 +781,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "VladyslavB-UK.SQLiteManager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,0 +1,38 @@
+[
+	{
+		"name": "substr",
+		"parameters": ["TEXT", "TEXT"]
+	},
+	{
+		"name": "length",
+		"parameters": ["TEXT"]
+	},
+	{
+		"name": "lower",
+		"parameters": ["TEXT"]
+	},
+	{
+		"name": "ltrim",
+		"parameters": ["TEXT"]
+	},
+	{
+		"name": "rtrim",
+		"parameters": ["TEXT"]
+	},
+	{
+		"name": "replace",
+		"parameters": ["TEXT", "TEXT", "TEXT"]
+	},
+	{
+		"name": "substr",
+		"parameters": ["TEXT", "INTEGER", "INTEGER"]
+	},
+	{
+		"name": "trim",
+		"parameters": ["TEXT"]
+	},
+	{
+		"name": "upper",
+		"parameters": ["TEXT"]
+	}
+]

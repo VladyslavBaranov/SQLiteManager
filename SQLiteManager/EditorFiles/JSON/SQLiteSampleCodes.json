@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Select query",
+        "sql": "SELECT * FROM SampleTable WHERE condition"
+    },
+    {
+        "title": "Insert query",
+        "sql": "INSERT INTO SampleTable (column1, column2, ..) VALUES (value1, value2, ..)"
+    },
+    {
+        "title": "Update query",
+        "sql": "UPDATE SampleTable SET column1 = value1,\ncolumn2 = value2,\n..\nWHERE condition"
+    },
+    {
+        "title": "Delete query",
+        "sql": "DELETE FROM SampleTable WHERE condition"
+    },
+    {
+        "title": "Create table",
+        "sql": "CREATE TABLE IF NOT EXISTS SampleTable (attribute1 type1, attribute2 type2, ..)"
+    },
+    {
+        "title": "Drop table",
+        "sql": "DROP TABLE [IF EXISTS] SampleTable"
+    },
+    {
+        "title": "Rename table",
+        "sql": "ALETR TABLE SampleTable RENAME TO new_name"
+    },
+    {
+        "title": "Add table attribute",
+        "sql": "ALTER TABLE SampleTable ADD COLUMN column_definition"
+    },
+    {
+        "title": "Insert rows from one table to another",
+        "sql": "INSERT INTO desctination SELECT * FROM source"
+    },
+    {
+        "title": "Duplicate table",
+        "sql": "CREATE TABLE new_table AS SELECT * FROM existing_table"
+    },
+    {
+        "title": "Create view",
+        "sql": "CREATE VIEW view_name AS SELECT * FROM existing_table"
+    }
+]

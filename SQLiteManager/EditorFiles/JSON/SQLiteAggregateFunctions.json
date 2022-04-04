@@ -1,0 +1,30 @@
+[
+	{
+		"name": "avg",
+		"parameters": ["GROUP"]
+	},
+	{
+		"name": "count",
+		"parameters": ["GROUP|*"]
+	},
+	{
+		"name": "group_concat",
+		"parameters": ["GROUP", "GROUP"]
+	},
+	{
+		"name": "max",
+		"parameters": ["GROUP"]
+	},
+	{
+		"name": "min",
+		"parameters": ["GROUP"]
+	},
+	{
+		"name": "sum",
+		"parameters": ["GROUP"]
+	},
+	{
+		"name": "total",
+		"parameters": ["GROUP"]
+	},
+]

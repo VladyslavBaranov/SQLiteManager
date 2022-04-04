@@ -1,0 +1,130 @@
+[
+	{
+		"name": "abs",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "acos",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "acosh",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "asin",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "asinh",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "atan",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "atan2",
+		"parameters": ["NUMERIC", "NUMERIC"]
+	},
+	{
+		"name": "atanh",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "ceil",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "ceiling",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "cos",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "cosh",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "degrees",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "exp",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "floor",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "ln",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "log",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "log",
+		"parameters": ["NUMERIC", "NUMERIC"]
+	},
+	{
+		"name": "log10",
+		"parameters": ["NUMERIC", "NUMERIC"]
+	},
+	{
+		"name": "log2",
+		"parameters": ["NUMERIC", "NUMERIC"]
+	},
+	{
+		"name": "mod",
+		"parameters": ["NUMERIC", "NUMERIC"]
+	},
+	{
+		"name": "pi",
+		"parameters": []
+	},
+	{
+		"name": "pow",
+		"parameters": ["NUMERIC", "NUMERIC"]
+	},
+	{
+		"name": "power",
+		"parameters": ["NUMERIC", "NUMERIC"]
+	},
+	{
+		"name": "radians",
+		"parameters": ["NUMERIC"]
+	},
+    {
+        "name": "random",
+        "parameters": []
+    }
+	{
+		"name": "sin",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "sinh",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "sqrt",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "tan",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "tanh",
+		"parameters": ["NUMERIC"]
+	},
+	{
+		"name": "trunc",
+		"parameters": ["NUMERIC"]
+	}
+]
